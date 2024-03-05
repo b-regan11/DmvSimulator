@@ -23,6 +23,12 @@ public class DmvSimulator {
 
         // Call the user's number last
         System.out.println("Number " + userNumber + ", please proceed to the counter. You're the last one!");
-        System.out.println("MWAHAHAHAHHA");
+        // Simulate paperwork check with 1% chance of success
+        if (random.nextInt(100) + 1 == 1) {
+            System.out.println("Congratulations! You have all the required paperwork, and you are all set.");
+        } else {
+            System.out.println("Maybe you should've brought your paperwork to the DMV you idiot!!!");
+            System.out.println("MWAHAHAHAHHA");
+        }
     }
 }
