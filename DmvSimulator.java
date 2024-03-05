@@ -5,7 +5,7 @@ public class DmvSimulator {
         System.out.println("Welcome to the Department of Motor Vehicles!");
 
         Random random = new Random();
-        int userNumber = random.nextInt(100) + 1;
+        int userNumber = random.nextInt(200) + 1;
 
         System.out.println("Your number is: " + userNumber);
         System.out.println("Please wait until your number is called.");
@@ -14,11 +14,11 @@ public class DmvSimulator {
         System.out.println("Now calling numbers...");
 
         // Start from the number directly after the user's number
-        int currentNumber = (userNumber + 1) % 101;
+        int currentNumber = (userNumber + 1) % 201;
         
         do {
             System.out.println("Number " + currentNumber + ", please proceed to the counter.");
-            currentNumber = (currentNumber + 1) % 101;
+            currentNumber = (currentNumber + 1) % 201;
         } while (currentNumber != userNumber);
 
         // Call the user's number last
