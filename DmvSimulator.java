@@ -23,6 +23,6 @@ public class DmvSimulator {
 
         // Call the user's number last
         System.out.println("Number " + userNumber + ", please proceed to the counter. You're the last one!");
-        System.out.println("Sorry, you do not have the required paperwork. Please come back tomorrow.");
+        System.out.println("Maybe you should've brought your paperwork to the DMV you idiot!!!");
     }
 }
