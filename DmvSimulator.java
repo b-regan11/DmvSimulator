@@ -28,6 +28,7 @@ public class DmvSimulator {
             System.out.println("Congratulations! You have all the required paperwork, and you are all set.");
         } else {
             System.out.println("Maybe you should've brought your paperwork to the DMV you idiot!!!");
+            System.out.println("MWAHAHAHAHHA");
         }
     }
 }
